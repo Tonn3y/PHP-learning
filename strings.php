@@ -32,6 +32,33 @@
     // Reversing a string
     $d = "We Lit Boyss!";
     echo strrev($d);
+
+    // Removing the white space
+    $e = "<br>   We should be there!  ";
+    echo trim($e);
+
+    // Converting a string into an array
+    $g = "Hope you are well";
+    $h = explode(" ",$g);
+    print_r($h);
+
+    // Concatenate strings
+    $i = "Hi";
+    $j = "Elsie <br>";
+    $k = "$i $j";
+    // or $k = $i.$j;
+    echo $k;
+
+    // Slicing strings
+    $l = "Tonight's game will be between the mavericks and dallas! <br>";
+    $m = substr($l,10,9);
+    echo $m;
+
+    // Escape characters is for inserting illegal charcters in a string e.g double quotes or a variable it is surrounded by a backlash \
+    $n = "Tomorrow is a big day cause the $m be played at night.<br>";
+    echo $n;
+    $o = "Yes tomorrow will be visiting \"grandma\" and grandpa";
+    echo $o;
     ?>
 </body>
 </html>
