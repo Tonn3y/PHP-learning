@@ -10,16 +10,29 @@
     $color = "Yellow";
     switch($color) {
         case "Blue":
-            echo "My favorite color is Blue";
+            echo "My favorite color is Blue <br>";
             break;
         case "Red":
-            echo "My favorite color is Red";
+            echo "My favorite color is Red <br>";
             break;
         case "Yellow":
-            echo "Your favorite color is Yellow";
+            echo "Your favorite color is Yellow <br>";
             break;
         case "Orange":
-            echo "Your favorite color is Orange";
+            echo "Your favorite color is Orange <br>";
+            break;        
+    }
+
+    $d = 4;
+    switch($d) {
+        case 0:
+            echo "Today is a Beautiful Sunday <br>";
+            break;
+        case 6:
+            echo "Saturday is soo good!!! <br>";
+            break;
+        default:
+            echo "Looking forward for the weekend! <br>";
             break;        
     }
     ?>
