@@ -33,7 +33,7 @@
             break;
         default:
             echo "Looking forward for the weekend! <br>";
-            break;        
+            // If default is not the last world in the switch statement make sure to end the default statement with the break word      
     }
     ?>
 </body>
